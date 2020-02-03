@@ -1,5 +1,6 @@
 import React from 'react';
 import {IShopTable} from "../../../f-3-common/c-5-table/t-1-table/t-2-bll/b-2-redux/tableInitialState";
+import IosivKonstantinSergeevichName from "../t-1-ui/students/IosivKonstantinSergeevich/s-1-name/IosivKonstantinSergeevichName";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -64,6 +65,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Иосифов Константин Сергеевич',
+        nameComponent: <IosivKonstantinSergeevichName/>
     },
     {
         id: '9',

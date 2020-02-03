@@ -1,0 +1,14 @@
+.myName{
+    border: 1px solid #000;
+    width: 350px;
+    max-height: 50px;
+    margin: 5px;
+    background: linear-gradient(to top, #b31c1c, #0f0f0f);
+    box-shadow: 5px 10px 20px rgba(52,76,191,0.5);  
+    color: #fff;     
+    transition: all .3s linear;         
+}
+
+.myName:hover{
+    background: linear-gradient(to top, #0f0f0f, #b31c1c);
+}

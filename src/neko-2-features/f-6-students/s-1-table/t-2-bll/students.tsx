@@ -1,7 +1,11 @@
 import React from 'react';
 import {IShopTable} from "../../../f-3-common/c-5-table/t-1-table/t-2-bll/b-2-redux/tableInitialState";
-import IosivKonstantinSergeevichName from "../t-1-ui/students/IosivKonstantinSergeevich/s-1-name/IosivKonstantinSergeevichName";
-import TarasiukDmitrijValentinovichName from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-1-name/Tarasiuk";
+import IosivKonstantinSergeevichName
+    from "../t-1-ui/students/IosivKonstantinSergeevich/s-1-name/IosivKonstantinSergeevichName";
+import TarasiukDmitrijValentinovichName
+    from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-1-name/TarasiukDmitrijValentinovichName";
+import AkhmadMidaevRuslanovichName
+    from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-1-name/AkhmadMidaevRuslanovichName";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -144,6 +148,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Мидаев Ахмад Русланович',
+        nameComponent: <AkhmadMidaevRuslanovichName/>
     },
     {
         id: '20',

@@ -1,11 +1,8 @@
 import React from 'react';
 import {IShopTable} from "../../../f-3-common/c-5-table/t-1-table/t-2-bll/b-2-redux/tableInitialState";
-import IosivKonstantinSergeevichName
-    from "../t-1-ui/students/IosivKonstantinSergeevich/s-1-name/IosivKonstantinSergeevichName";
-import TarasiukDmitrijValentinovichName
-    from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-1-name/TarasiukDmitrijValentinovichName";
-import AkhmadMidaevRuslanovichName
-    from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-1-name/AkhmadMidaevRuslanovichName";
+import S8Name from "../t-1-ui/students/IosivKonstantinSergeevich/s-1-name/S8Name";
+import S23Name from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-1-name/S23Name";
+import S19Name from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-1-name/S19Name";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -70,7 +67,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Иосифов Константин Сергеевич',
-        nameComponent: <IosivKonstantinSergeevichName/>
+        nameComponent: <S8Name/>
     },
     {
         id: '9',
@@ -148,7 +145,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Мидаев Ахмад Русланович',
-        nameComponent: <AkhmadMidaevRuslanovichName/>
+        nameComponent: <S19Name/>
     },
     {
         id: '20',
@@ -177,7 +174,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Тарасюк Дмитрий Валентинович',
-        nameComponent: <TarasiukDmitrijValentinovichName/>
+        nameComponent: <S23Name/>
     },
 
 ];

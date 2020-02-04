@@ -2,7 +2,7 @@
     border: 1px solid #000;
     width: 350px;
     max-height: 50px;
-    margin: 5px;
+    margin: 5px 5px 15px;
     background: linear-gradient(to top, #b31c1c, #0f0f0f);
     box-shadow: 5px 10px 20px rgba(52,76,191,0.5);  
     color: #fff;     

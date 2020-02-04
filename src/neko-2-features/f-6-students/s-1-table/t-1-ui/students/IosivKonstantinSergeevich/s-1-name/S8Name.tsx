@@ -2,7 +2,7 @@ import React from 'react';
 import s from './MyName.module.css';
 
 
-const IosivKonstantinSergeevichName = () => {
+const S8Name = () => {
     return (
         <div className={s.myName}>
             Иосифов Константин Сергеевич
@@ -10,4 +10,4 @@ const IosivKonstantinSergeevichName = () => {
     );
 };
 
-export default IosivKonstantinSergeevichName;
+export default S8Name;

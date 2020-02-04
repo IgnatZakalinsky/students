@@ -1,0 +1,49 @@
+
+.MySuperName {
+  display: flex;
+  align-items: center;
+
+
+  width: 350px;
+  margin: 5px;
+  max-height: 50px;
+
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to top, #7a7abd 0%, #070788 100%);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,.4);
+
+  transition: all .35s ease;
+
+  position: relative;
+}
+
+.MySuperName:hover {
+  color: rgb(189, 14, 43);
+  background: linear-gradient(to top, #070788 0%, #7a7abd 100%);
+
+}
+
+.Vladislav {
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+

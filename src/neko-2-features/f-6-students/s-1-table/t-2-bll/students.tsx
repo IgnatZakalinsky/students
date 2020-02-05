@@ -5,8 +5,9 @@ import S23Name from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-1-name/S2
 import S19Name from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-1-name/S19Name";
 import S18Name from "../t-1-ui/students/VladislavBerezovsky/s-1-name/S18Name";
 import S7Name from "../t-1-ui/students/GavrilenkoAntonAndreevich/s-1-name/S7Name";
-import S14Name from "../t-1-ui/students/TolkachevIvanBorisovich/s-1-name/S14Name";
+import S13Name from "../t-1-ui/students/TolkachevIvanBorisovich/s-1-name/S13Name";
 import S4Name from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-1-name/S4Name";
+import S14Name from "../t-1-ui/students/FedorinVadzimNikolaevich/s-1-name/S14Name";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -109,6 +110,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Толкачёв Иван Борисович',
+        nameComponent: <S13Name/>
     },
     {
         id: '14',

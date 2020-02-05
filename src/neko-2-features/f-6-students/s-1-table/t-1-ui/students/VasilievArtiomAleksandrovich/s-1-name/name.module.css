@@ -2,7 +2,7 @@
 .text {
  
     width: 336px;
-    max-height: 50px;
+    min-height: 30px;
     margin: 5px;
     padding: 5px;
     border: 2px solid goldenrod;

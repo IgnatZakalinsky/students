@@ -1,7 +1,7 @@
 .tolkachev {
     background-color: #A5AEF2;
     width: 326px;
-    height: 25px;
+    min-height: 25px;
     padding: 5px;
     margin: 5px;
     border: 7px outset #263BD7;

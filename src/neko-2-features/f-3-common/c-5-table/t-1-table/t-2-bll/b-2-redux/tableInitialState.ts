@@ -6,7 +6,7 @@ export interface IShopTable {
     price: number;
 
     name?: string;
-    nameComponent?: ReactNode;
+    nameComponent?: (i: number) => ReactNode;
 }
 
 export interface IShopSettings {

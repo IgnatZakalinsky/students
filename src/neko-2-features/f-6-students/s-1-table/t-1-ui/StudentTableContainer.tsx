@@ -15,7 +15,7 @@ const StudentTableContainer: React.FC = () => {
         {
             title: (i: number) => (<div key={i} style={{width: '338px', padding: '11px'}}>Students</div>),
             render: (d: IShopTable, i: number) => {
-                if (d.nameComponent) return d.nameComponent;
+                if (d.nameComponent) return d.nameComponent(i);
                 else return (
                     <div
                         key={i}

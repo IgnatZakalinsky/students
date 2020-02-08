@@ -1,0 +1,10 @@
+.h1 {
+  width: 334px;
+  margin: 5px;
+  border: 8px outset #1E90FF;
+  border-radius: 3px;
+  background: darkkhaki;
+  color: #000000;
+  font-size: 20px;
+  font-family: Tahoma;
+}

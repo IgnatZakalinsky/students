@@ -9,6 +9,7 @@ import S13Name from "../t-1-ui/students/TolkachevIvanBorisovich/s-1-name/S13Name
 import S4Name from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-1-name/S4Name";
 import S14Name from "../t-1-ui/students/FedorinVadzimNikolaevich/s-1-name/S14Name";
 import S21Name from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-1-name/S21Name";
+import S12Name from "../t-1-ui/students/SviderskyVladislavAndreevich/s-1-name/S12Name";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -45,7 +46,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Васильев Артем Александрович',
-        nameComponent: <S4Name/>
+        nameComponent: (i: number) => <S4Name key={i}/>
     },
     {
         id: '5',
@@ -67,7 +68,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Гавриленко Антон Андреевич',
-        nameComponent: <S7Name/>
+        nameComponent: (i: number) => <S7Name key={i}/>
     },
     {
         id: '8',
@@ -75,7 +76,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Иосифов Константин Сергеевич',
-        nameComponent: <S8Name/>
+        nameComponent: (i: number) => <S8Name key={i}/>
     },
     {
         id: '9',
@@ -104,6 +105,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Свидерский Владислав Андреевич',
+        nameComponent: (i: number) => <S12Name key={i}/>
     },
     {
         id: '13',
@@ -111,7 +113,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Толкачёв Иван Борисович',
-        nameComponent: <S13Name/>
+        nameComponent: (i: number) => <S13Name key={i}/>
     },
     {
         id: '14',
@@ -119,7 +121,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Федорин Вадим Николаевич',
-        nameComponent: <S14Name/>
+        nameComponent: (i: number) => <S14Name key={i}/>
     },
     {
         id: '15',
@@ -148,7 +150,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Березовский Влад',
-        nameComponent: <S18Name/>
+        nameComponent: (i: number) => <S18Name key={i}/>
     },
     {
         id: '19',
@@ -156,7 +158,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Мидаев Ахмад Русланович',
-        nameComponent: <S19Name/>
+        nameComponent: (i: number) => <S19Name key={i}/>
     },
     {
         id: '20',
@@ -171,7 +173,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Кочнев Сергей Александрович',
-        nameComponent: <S21Name/>
+        nameComponent: (i: number) => <S21Name key={i}/>
     },
     {
         id: '22',
@@ -186,7 +188,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Тарасюк Дмитрий Валентинович',
-        nameComponent: <S23Name/>
+        nameComponent: (i: number) => <S23Name key={i}/>
     },
 
 ];

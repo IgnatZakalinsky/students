@@ -10,6 +10,7 @@ import S4Name from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-1-name/S4N
 import S14Name from "../t-1-ui/students/FedorinVadzimNikolaevich/s-1-name/S14Name";
 import S21Name from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-1-name/S21Name";
 import S12Name from "../t-1-ui/students/SviderskyVladislavAndreevich/s-1-name/S12Name";
+import S3Name from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-1-name/S3Name";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -39,6 +40,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Бирюков Савелий-Георгий Юрьевич',
+        nameComponent: (i: number) => <S3Name key={i}/>
     },
     {
         id: '4',

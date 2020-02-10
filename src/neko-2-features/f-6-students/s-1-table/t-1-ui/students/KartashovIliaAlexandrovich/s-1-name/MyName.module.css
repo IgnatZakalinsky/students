@@ -1,0 +1,13 @@
+.name{
+    width: 350px;
+    margin: 5px;
+    font-size: 35px;
+    font-family:Calibri;
+    color: crimson;
+}
+.name:hover{
+    color:blueviolet;
+    font-size: 50px;
+    font-family:fantasy;
+}
+

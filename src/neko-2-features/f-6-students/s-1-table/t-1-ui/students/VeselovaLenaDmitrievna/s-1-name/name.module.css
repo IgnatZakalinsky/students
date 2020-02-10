@@ -1,0 +1,11 @@
+.myName {
+    width: 340px;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial;
+    color: aquamarine;
+    background-color: darkgray;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

@@ -44,6 +44,14 @@ const StudentTableContainer: React.FC = () => {
             searchName: '', sortProducts: '',
             productTotalCount: 7, page: 1, pageCount: 10,
         }))
+
+        const socket = new WebSocket("wss://social-network.samuraijs.com/handlers/chatHandler.ashx");
+
+        // @ts-ignore
+        window.socket = socket;
+
+        socket.onmessage =
+                ev => ev.data && JSON.parse(ev.data).forEach((u: any) => console.log(u.userName + ': ' + u.message))
     }, []);
 
     return (

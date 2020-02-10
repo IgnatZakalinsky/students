@@ -15,6 +15,7 @@ import S6Name from "../t-1-ui/students/VeselovaLenaDmitrievna/s-1-name/S6Name";
 import S1Name from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-1-name/S1Name";
 import S9Name from "../t-1-ui/students/KartashovIliaAlexandrovich/s-1-name/S9Name";
 import S5Name from "../t-1-ui/students/VasilievEvgenyVadimovich/s-1-name/S5Name";
+import S22Name from "../t-1-ui/students/MartosArtiomVadimovich/s-1-name/S22Name";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -191,6 +192,7 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Мартос Артём Вадимович',
+        nameComponent: (i: number) => <S22Name key={i}/>
     },
     {
         id: '23',

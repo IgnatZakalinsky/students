@@ -1,7 +1,7 @@
 
 .name {
     width: 340px;
-    height: 50px;
+    min-height: 50px;
     margin: 5px;
     border: 5px solid darkslateblue;
     border-radius: 10px;

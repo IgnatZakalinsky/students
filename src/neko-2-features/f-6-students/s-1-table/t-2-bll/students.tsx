@@ -26,7 +26,36 @@ export const studentsItem: IShopTable[] = [
         productName: 'student',
         price: 1000,
 
-        name: "Ignat Zakalinsky"
+        name: "Ignat Zakalinsky",
+
+        styledDay: (day: string) => (
+            <div style={{marginLeft: 5, padding: 5, border: '1px solid black', width: 82}}>
+                {day}
+            </div>
+        ),
+        mappedSkills: (i: number) => (
+            <div
+                key={i}
+                style={{
+                    width: '500px',
+                    border: '1px solid black',
+                    margin: '5px',
+                    padding: '5px',
+                    display: 'flex',
+                    flexWrap: 'wrap'
+                }}
+            >
+                <div style={{width: 150, border: '1px solid black', marginRight: 5, paddingLeft: 5}}>
+                    рационалист
+                </div>
+                <div style={{width: 150, border: '1px solid black', marginRight: 5, paddingLeft: 5}}>
+                    коммунист
+                </div>
+                <div style={{width: 150, border: '1px solid black', marginRight: 5, paddingLeft: 5}}>
+                    анимешник
+                </div>
+            </div>
+        )
     },
     {
         id: '1',

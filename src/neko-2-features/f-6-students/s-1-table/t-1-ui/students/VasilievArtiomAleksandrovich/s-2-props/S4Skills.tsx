@@ -13,9 +13,9 @@ class S4Skills extends React.Component {
 
         ];
 
-        let skillsElement = skills.map(item=>{
+        let skillsElement = skills.map((item, i) => {
             return (
-                <StyleSkill skill={item.skill}/>
+                <StyleSkill skill={item.skill} key={i}/>
             )
         });
 

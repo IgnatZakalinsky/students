@@ -12,7 +12,7 @@ const AnimatedItem: React.FC<{letter: string}> = (props) => {
 const S20Name = () => {
 
 const letters =['A','T','A','B','A','L','O','V','','M','U','R','A','D',];
-const actionLetter = letters.map(el => <AnimatedItem letter={el} />);
+const actionLetter = letters.map((el, i) => <AnimatedItem letter={el} key={i}/>);
 
 	return (
  		<div className={style.wrap}>

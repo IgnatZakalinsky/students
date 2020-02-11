@@ -9,9 +9,9 @@ const S13Skills = () => {
         {skill: 'обоятеленый'},
     ];
 
-    let skillsElements = skills.map(item => {
+    let skillsElements = skills.map((item, i) => {
         return (
-            <TolkachevSkill skill={item.skill}/>
+            <TolkachevSkill skill={item.skill} key={i}/>
         )
     });
 

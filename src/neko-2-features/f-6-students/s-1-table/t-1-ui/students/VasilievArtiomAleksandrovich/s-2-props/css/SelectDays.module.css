@@ -1,0 +1,36 @@
+.container {
+    width: 130px;
+    border: 1px solid black;
+    /*margin: 5px;*/
+    padding: 5px;
+    display: flex;
+}
+
+.day {
+    margin: 0;
+    /*margin-left: 5px;*/
+    /*padding: 5px;*/
+    border: 1px solid black;
+    width: 82px;
+    text-align: center;
+}
+
+.green {
+    background-color:  green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background: red;
+}
+
+.blueviolet {
+    background: blueviolet;
+}
+
+.coral {
+    background: coral;
+}

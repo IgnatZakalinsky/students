@@ -19,6 +19,8 @@ import S22Name from "../t-1-ui/students/MartosArtiomVadimovich/s-1-name/S22Name"
 import S2Name from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-1-name/S2Name";
 import S16Name from "../t-1-ui/students/IaravoyIvanVladimirovich/s-1-name/S16Name";
 import S20Name from "../t-1-ui/students/AtabalovMurad/s-1-name/AnimatedName";
+import S13Progress from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevProgress/S13Progress";
+import S13Skills from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevSkills/S13Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -29,20 +31,13 @@ export const studentsItem: IShopTable[] = [
         name: "Ignat Zakalinsky",
 
         styledDay: (day: string) => (
-            <div style={{marginLeft: 5, padding: 5, border: '1px solid black', width: 82}}>
-                {day}
-            </div>
+            <div style={{marginLeft: 5, padding: 5, border: '1px solid black', width: 82}}>{day}</div>
         ),
         mappedSkills: (i: number) => (
             <div
                 key={i}
                 style={{
-                    width: '500px',
-                    border: '1px solid black',
-                    margin: '5px',
-                    padding: '5px',
-                    display: 'flex',
-                    flexWrap: 'wrap'
+                    width: 500, border: '1px solid black', margin: 5, padding: 5, display: 'flex', flexWrap: 'wrap'
                 }}
             >
                 <div style={{width: 150, border: '1px solid black', marginRight: 5, paddingLeft: 5}}>
@@ -157,7 +152,9 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Толкачёв Иван Борисович',
-        nameComponent: (i: number) => <S13Name key={i}/>
+        nameComponent: (i: number) => <S13Name key={i}/>,
+        styledDay: day => <S13Progress day={day}/>,
+        mappedSkills: i => <S13Skills key={i}/>
     },
     {
         id: '14',

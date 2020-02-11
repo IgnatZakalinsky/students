@@ -22,6 +22,8 @@ import S20Name from "../t-1-ui/students/AtabalovMurad/s-1-name/AnimatedName";
 import S13Progress from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevProgress/S13Progress";
 import S13Skills from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevSkills/S13Skills";
 import S4Skills from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-2-props/S4Skills";
+import S20Skills from "../t-1-ui/students/AtabalovMurad/s-2-props/Skills/S20Skills";
+import S20Day from "../t-1-ui/students/AtabalovMurad/s-2-props/SelectDay/S20Day";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -210,7 +212,9 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'ATABALOV Murad',
-        nameComponent: (i: number) => <S20Name key={i}/>
+        nameComponent: (i: number) => <S20Name key={i}/>,
+        styledDay: (day: string) => <S20Day day={day}/>,
+        mappedSkills: i => <S20Skills key={i}/>,
     },
     {
         id: '21',

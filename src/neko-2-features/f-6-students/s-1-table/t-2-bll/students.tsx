@@ -21,6 +21,7 @@ import S16Name from "../t-1-ui/students/IaravoyIvanVladimirovich/s-1-name/S16Nam
 import S20Name from "../t-1-ui/students/AtabalovMurad/s-1-name/AnimatedName";
 import S13Progress from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevProgress/S13Progress";
 import S13Skills from "../t-1-ui/students/TolkachevIvanBorisovich/s-2-props/TolkachevSkills/S13Skills";
+import S4Skills from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-2-props/S4Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -82,7 +83,8 @@ export const studentsItem: IShopTable[] = [
         price: 100,
 
         name: 'Васильев Артем Александрович',
-        nameComponent: (i: number) => <S4Name key={i}/>
+        nameComponent: (i: number) => <S4Name key={i}/>,
+        mappedSkills: i => <S4Skills key={i}/>
     },
     {
         id: '5',

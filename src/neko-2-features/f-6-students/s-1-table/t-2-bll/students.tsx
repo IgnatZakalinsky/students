@@ -25,6 +25,8 @@ import S4Skills from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-2-props/
 import S20Skills from "../t-1-ui/students/AtabalovMurad/s-2-props/Skills/S20Skills";
 import S20Day from "../t-1-ui/students/AtabalovMurad/s-2-props/SelectDay/S20Day";
 import S4Days from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-2-props/S4Days";
+import S19Day from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-2-props/S19Day";
+import S19Skills from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-2-props/S19Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -226,6 +228,8 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Мидаев Ахмад Русланович',
         nameComponent: (i: number) => <S19Name key={i}/>,
+        styledDay: day => <S19Day day={day}/>,
+        mappedSkills: i => <S19Skills key={i}/>,
 
     },
     {

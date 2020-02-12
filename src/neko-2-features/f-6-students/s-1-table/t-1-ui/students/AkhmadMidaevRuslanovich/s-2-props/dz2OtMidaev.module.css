@@ -1,0 +1,39 @@
+.monday {
+    background-color: #62ff7d;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.tuesday {
+    background-color: #fffd59;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.wednesday {
+    background-color: #ff7068;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.thursday {
+    background-color: #dcc3ff;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.friday {
+    background-color: #49daff;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}

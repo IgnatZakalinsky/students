@@ -1,0 +1,11 @@
+.days {
+    margin-top: 50px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.color {
+    color: blueviolet;
+}

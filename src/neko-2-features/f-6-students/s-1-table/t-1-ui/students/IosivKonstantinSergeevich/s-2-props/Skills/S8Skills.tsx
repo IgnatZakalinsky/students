@@ -11,10 +11,8 @@ class S8Skills extends React.Component {
 
     render = () => {
 
-        let skillsElements = this.skills.map(skillItem => (
-            <Skill
-                title={skillItem.title}
-            />
+        let skillsElements = this.skills.map((skillItem, i) => (
+            <Skill title={skillItem.title} key={i}/>
         ));
 
         return (

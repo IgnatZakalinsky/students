@@ -12,7 +12,7 @@ class S19Skills extends React.Component {
 
     render() {
 
-        let skillElement = this.value.map((s) => <MidaevSkill skill={s.skill}/>);
+        let skillElement = this.value.map((s, i) => <MidaevSkill skill={s.skill} key={i}/>);
 
         return (
             <div className={"styleMap"}>

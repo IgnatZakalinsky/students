@@ -31,6 +31,7 @@ import S8Skills from "../t-1-ui/students/IosivKonstantinSergeevich/s-2-props/Ski
 import S3Skills from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-2-props/S3Skills";
 import S23Days from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-2-props/S23Days";
 import S23Skills from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-2-props/S23Skills";
+import S3Day from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-2-props/S3Day";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -89,6 +90,7 @@ export const studentsItem: IShopTable[] = [
         name: 'Бирюков Савелий-Георгий Юрьевич',
         nameComponent: (i: number) => <S3Name key={i}/>,
         mappedSkills: i => <S3Skills key={i}/>,
+        styledDay: day => <S3Day day={day}/>,
 
     },
     {

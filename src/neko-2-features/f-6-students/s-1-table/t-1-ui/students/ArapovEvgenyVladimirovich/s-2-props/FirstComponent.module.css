@@ -1,27 +1,28 @@
-.days {
+
+.wrapDays {
     margin-left: 5px;
     padding: 5px;
     border: 1px solid black;
     width: 82px;
 }
 
-.colorMonday {
+.Monday {
     color: green;
 }
 
-.colorTuesday {
+.Tuesday {
     color: yellow;
 }
 
-.colorWednesday {
+.Wednesday {
     color: red;
 }
 
-.colorThursday {
-    color: blueviolet;
+.Thursday {
+    color: purple;
+
 }
 
-.colorFriday {
-    color: blue;
+.Friday {
+    color: darkslategrey;
 }
-

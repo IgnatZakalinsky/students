@@ -32,6 +32,10 @@ import S3Skills from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-2-props
 import S23Days from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-2-props/S23Days";
 import S23Skills from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-2-props/S23Skills";
 import S3Day from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-2-props/S3Day";
+import S1Day from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-2-props/S1Day";
+import S1SkillsComponent from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-2-props/S1SkillsComponent";
+import S2Day from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-2-props/S2Day";
+import S2Skills from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-2-props/S2Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -71,6 +75,8 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Арапов Евгений Владимирович',
         nameComponent: (i: number) => <S1Name key={i}/>,
+        styledDay: day => <S1Day day={day}/>,
+        mappedSkills: i => <S1SkillsComponent key={i}/>,
 
     },
     {
@@ -80,6 +86,8 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Белявская Александра Сергеевна',
         nameComponent: (i: number) => <S2Name key={i}/>,
+        styledDay: day => <S2Day day={day}/>,
+        mappedSkills: i => <S2Skills key={i}/>,
 
     },
     {

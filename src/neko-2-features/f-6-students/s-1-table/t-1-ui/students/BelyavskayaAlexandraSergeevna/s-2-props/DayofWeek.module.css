@@ -1,0 +1,39 @@
+.Monday{
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 82px;
+  color: green;
+}
+
+.Tuesday{
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 82px;
+  color: yellow;
+}
+
+.Wednesday{
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 82px;
+  color: red;
+}
+
+.Thursday{
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 82px;
+  color: purple;
+}
+
+.Friday{
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 82px;
+  color: deeppink;
+}

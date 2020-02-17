@@ -1,0 +1,25 @@
+.wrapper{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;}
+.green {
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.darkslateblue{
+    background-color: darkslateblue;
+}
+.cyan{
+    background-color: cyan;
+}
+
+

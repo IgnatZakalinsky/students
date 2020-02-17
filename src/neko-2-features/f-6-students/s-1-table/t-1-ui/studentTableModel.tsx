@@ -78,7 +78,7 @@ export const studentTableModel: ITableModel[] = [
         }
     },
     {
-        title: (i: number) => (<div key={i} style={{width: '500px', padding: '11px'}}>Skills</div>),
+        title: (i: number) => (<div key={i} style={{width: '500px', padding: '11px'}}>Hello</div>),
         render: (d: IShopTable, i: number) => {
             if (d.hello) return d.hello(i);
             else return (

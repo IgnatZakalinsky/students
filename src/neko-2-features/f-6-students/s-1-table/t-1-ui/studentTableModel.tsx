@@ -77,6 +77,31 @@ export const studentTableModel: ITableModel[] = [
             )
         }
     },
+    {
+        title: (i: number) => (<div key={i} style={{width: '500px', padding: '11px'}}>Skills</div>),
+        render: (d: IShopTable, i: number) => {
+            if (d.hello) return d.hello(i);
+            else return (
+                <div
+                    key={i}
+                    style={{
+                        width: '250px',
+                        border: '1px solid black',
+                        margin: '5px',
+                        padding: '5px',
+                        display: 'flex',
+                        flexWrap: 'wrap'
+                    }}
+                >
+                    <span style={{width: 15, margin: 5}}>0</span>
+                    <input/>
+                    <button onClick={() => alert('Он не сделал домашку!!!')} style={{marginLeft: 5, padding: 5}}>
+                        hello
+                    </button>
+                </div>
+            )
+        }
+    },
 
     {
         title: (i: number) => (<div key={i} style={{width: '10%'}}>...</div>),

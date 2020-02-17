@@ -9,6 +9,7 @@ export interface IShopTable {
     nameComponent?: (i: number) => ReactNode;
     styledDay?: (day: string) => ReactNode;
     mappedSkills?: (i: number) => ReactNode;
+    hello?: (i: number) => ReactNode;
 }
 
 export interface IShopSettings {

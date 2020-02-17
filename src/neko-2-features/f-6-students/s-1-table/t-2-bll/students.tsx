@@ -41,6 +41,7 @@ import S7Skills from "../t-1-ui/students/GavrilenkoAntonAndreevich/s-2-props/S7S
 import S14Skills from "../t-1-ui/students/FedorinVadzimNikolaevich/s-2-props/skills/S14Skills";
 import S14Day from "../t-1-ui/students/FedorinVadzimNikolaevich/s-2-props/taskforignat/S14Day";
 import S9Progress from "../t-1-ui/students/KartashovIliaAlexandrovich/s-2-props/S9Progress";
+import Hello from "../t-1-ui/s-3-state/Hello";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -71,6 +72,7 @@ export const studentsItem: IShopTable[] = [
                 </div>
             </div>
         ),
+        hello: i => <Hello key={i}/>,
 
     },
     {

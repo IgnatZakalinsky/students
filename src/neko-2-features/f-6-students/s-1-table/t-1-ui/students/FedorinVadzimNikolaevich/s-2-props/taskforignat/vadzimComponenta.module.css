@@ -1,0 +1,27 @@
+.dayStyle {
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 82px;
+}
+
+.monday {
+    background-color: green;
+}
+
+.tuesday {
+    background-color: yellow;
+}
+
+.wednesday {
+    background-color: red;
+}
+
+.thursday {
+    background-color:purple;
+}
+
+.friday {
+    background-color:cornflowerblue;
+}
+

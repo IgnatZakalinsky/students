@@ -42,6 +42,7 @@ import S14Skills from "../t-1-ui/students/FedorinVadzimNikolaevich/s-2-props/ski
 import S14Day from "../t-1-ui/students/FedorinVadzimNikolaevich/s-2-props/taskforignat/S14Day";
 import S9Progress from "../t-1-ui/students/KartashovIliaAlexandrovich/s-2-props/S9Progress";
 import Hello from "../t-1-ui/s-3-state/Hello";
+import S9Skills from "../t-1-ui/students/KartashovIliaAlexandrovich/s-2-props/S9Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -166,6 +167,7 @@ export const studentsItem: IShopTable[] = [
         name: 'Карташов Илья Александрович',
         nameComponent: (i: number) => <S9Name key={i}/>,
         styledDay: day => <S9Progress day={day}/>,
+        mappedSkills: i => <S9Skills key={i}/>,
 
     },
     {

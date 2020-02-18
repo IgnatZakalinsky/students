@@ -78,7 +78,7 @@ export const studentTableModel: ITableModel[] = [
         }
     },
     {
-        title: (i: number) => (<div key={i} style={{width: '500px', padding: '11px'}}>Hello</div>),
+        title: (i: number) => (<div key={i} style={{width: '250px', padding: '11px'}}>Hello</div>),
         render: (d: IShopTable, i: number) => {
             if (d.hello) return d.hello(i);
             else return (
@@ -95,7 +95,7 @@ export const studentTableModel: ITableModel[] = [
                 >
                     <span style={{width: 15, margin: 5}}>0</span>
                     <input/>
-                    <button onClick={() => alert('Он не сделал домашку!!!')} style={{marginLeft: 5, padding: 5}}>
+                    <button onClick={() => alert('Домашка не сделана!!!')} style={{marginLeft: 5, padding: 5}}>
                         hello
                     </button>
                 </div>

@@ -3,7 +3,7 @@ import SkillComponent from "./SkillComponent";
 import style from './StyleSkills.module.css'
 
 const S1SkillsComponent = () => {
-    const skills = [''];
+    const skills = ["teetotal", "smoker", "homebody"];
 
     const skillElements = skills.map((skill, i) => <SkillComponent title={skill} key={i}/>);
 

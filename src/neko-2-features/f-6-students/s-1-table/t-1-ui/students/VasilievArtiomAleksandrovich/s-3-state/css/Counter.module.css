@@ -4,15 +4,20 @@
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    background-color: gold;
 }
 
-span {
+.span {
     width: 15px;
     margin: 5px;
 
 }
-button {
+.button {
+    color: white;
+    background-color: #4CAF50;
+    border: none;
     margin-left: 5px;
     padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-

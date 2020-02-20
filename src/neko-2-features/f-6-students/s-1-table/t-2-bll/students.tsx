@@ -51,6 +51,7 @@ import S19State from "../t-1-ui/students/AkhmadMidaevRuslanovich/s-3-state/S19St
 import S4Hello from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-3-state/S4Hello";
 import S23State from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-3-state/S23State";
 import S1Hello from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-3-state/S1Hello";
+import S2Hello from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-3-state/S2Hello";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -105,6 +106,7 @@ export const studentsItem: IShopTable[] = [
         nameComponent: (i: number) => <S2Name key={i}/>,
         styledDay: day => <S2Day day={day}/>,
         mappedSkills: i => <S2Skills key={i}/>,
+        hello: i => <S2Hello key={i}/>,
 
     },
     {

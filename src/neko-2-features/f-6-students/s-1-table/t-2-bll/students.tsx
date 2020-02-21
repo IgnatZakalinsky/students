@@ -52,6 +52,7 @@ import S4Hello from "../t-1-ui/students/VasilievArtiomAleksandrovich/s-3-state/S
 import S23State from "../t-1-ui/students/TarasiukDmitrijValentinovich/s-3-state/S23State";
 import S1Hello from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-3-state/S1Hello";
 import S2Hello from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-3-state/S2Hello";
+import S21Day from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-2-props/S21Day";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -297,6 +298,7 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Кочнев Сергей Александрович',
         nameComponent: (i: number) => <S21Name key={i}/>,
+        styledDay: day => <S21Day day={day}/>,
 
     },
     {

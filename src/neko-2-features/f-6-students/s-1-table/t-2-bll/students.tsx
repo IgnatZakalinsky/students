@@ -54,6 +54,7 @@ import S1Hello from "../t-1-ui/students/ArapovEvgenyVladimirovich/s-3-state/S1He
 import S2Hello from "../t-1-ui/students/BelyavskayaAlexandraSergeevna/s-3-state/S2Hello";
 import S21Day from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-2-props/S21Day";
 import S3Hello from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-3-state/S3Hello";
+import S9State from "../t-1-ui/students/KartashovIliaAlexandrovich/s-3-state/S9State";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -184,6 +185,7 @@ export const studentsItem: IShopTable[] = [
         nameComponent: (i: number) => <S9Name key={i}/>,
         styledDay: day => <S9Progress day={day}/>,
         mappedSkills: i => <S9Skills key={i}/>,
+        hello: i => <S9State key={i}/>,
 
     },
     {

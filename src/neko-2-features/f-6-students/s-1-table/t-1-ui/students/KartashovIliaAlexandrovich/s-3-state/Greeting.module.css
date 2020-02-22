@@ -1,0 +1,21 @@
+.wrap{
+    width: 250px;
+    border: 1px solid black ;
+    margin: 5px;
+    padding:5px;
+}
+.countWindow{
+    width:15px;
+    margin:5px;
+}
+.btn{
+    margin-left: 5px;
+    padding: 5px;
+    color: yellow;
+    background-color: darkslateblue;
+
+}
+.btn:hover{
+    background-color: aqua;
+
+}

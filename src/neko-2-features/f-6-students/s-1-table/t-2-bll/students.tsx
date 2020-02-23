@@ -56,6 +56,8 @@ import S21Day from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-2-props/S21
 import S3Hello from "../t-1-ui/students/BiriukovSavelyGeorgyIurievich/s-3-state/S3Hello";
 import S9State from "../t-1-ui/students/KartashovIliaAlexandrovich/s-3-state/S9State";
 import S8State from "../t-1-ui/students/IosivKonstantinSergeevich/s-3-state/S8State";
+import S6Day from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Day";
+import S6Skills from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -153,6 +155,8 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Веселова Елена Дмитриевна',
         nameComponent: (i: number) => <S6Name key={i}/>,
+        styledDay: day => <S6Day day={day}/>,
+        mappedSkills: i => <S6Skills key={i}/>,
 
     },
     {

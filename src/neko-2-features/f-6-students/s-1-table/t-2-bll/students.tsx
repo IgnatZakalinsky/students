@@ -59,6 +59,7 @@ import S8State from "../t-1-ui/students/IosivKonstantinSergeevich/s-3-state/S8St
 import S6Day from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Day";
 import S6Skills from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Skills";
 import S21Words from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-2-props/S21Words";
+import S16Skills from "../t-1-ui/students/IaravoyIvanVladimirovich/s-2-props/S16Skills";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -259,6 +260,7 @@ export const studentsItem: IShopTable[] = [
 
         name: 'Яровой Иван Владимирович',
         nameComponent: (i: number) => <S16Name key={i}/>,
+        mappedSkills: i => <S16Skills key={i}/>,
 
     },
     {

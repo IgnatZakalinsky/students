@@ -1,0 +1,17 @@
+.block {
+    width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: #5FFF00;
+}
+
+span {
+    width: 15px;
+    margin: 5px;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px;background-color: #FFF70C;
+}

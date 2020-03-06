@@ -60,6 +60,7 @@ import S6Day from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Day";
 import S6Skills from "../t-1-ui/students/VeselovaLenaDmitrievna/s-2-props/S6Skills";
 import S21Words from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-2-props/S21Words";
 import S16Skills from "../t-1-ui/students/IaravoyIvanVladimirovich/s-2-props/S16Skills";
+import S21Hello from "../t-1-ui/students/KochniovSergeyAlexandrovich/s-3-state/S21Hello";
 
 export const studentsItem: IShopTable[] = [
     {
@@ -313,6 +314,7 @@ export const studentsItem: IShopTable[] = [
         nameComponent: (i: number) => <S21Name key={i}/>,
         styledDay: day => <S21Day day={day}/>,
         mappedSkills: i => <S21Words key={i}/>,
+        hello: i => <S21Hello key={i}/>,
 
     },
     {

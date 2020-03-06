@@ -16,9 +16,9 @@ class S21Hello extends React.Component{
     render = () => {
         return(
             <div className={s.block}>
-                <span>{this.state.counter}</span>
+                <span className={s.span}>{this.state.counter}</span>
                 <input ref={this.newTask} type="text"/>
-                <button onClick={this.number}>submit</button>
+                <button onClick={this.number} className={s.button}>submit</button>
             </div>
         )
     }
